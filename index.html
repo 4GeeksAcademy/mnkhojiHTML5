@@ -69,9 +69,9 @@
                           <input type="numbers" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                         </div>
                       </div>
-                      <div class="row g-3 mb-3 align-items-center">
-                        <div class="col-auto w-50 ">
-                          <label for="paymentoffer " class="col-form-label">We accept: </label>
+                      <div class="d-flex" style="flex-direction: column;" >
+                        
+                          <label for="paymentoffer" class="d-flex"  style="align-items: flex-start;">We accept: </label>
                         <br/>
                         <div class="icons" style="background-color: gray;">
                         <label for="BTC"><i class="bi bi-currency-bitcoin"></i></label>
@@ -83,14 +83,16 @@
                           <label for="Yourlife"><i class="bi bi-heart-pulse-fill"></i></label>
                           <input type="radio" class="form" name="color" value="red" />
                         </div>
+                        
+                        
+                        <div class="d-inline-flex"  style="align-items: flex-start;">
+                          <label for="message" >Message</label><br/>
+                          <textarea name="textarea" rows="5" cols="30" minlength="10" maxlength="20"></textarea>
                         </div>
                         
-                        <div class="col-auto w-50">
-                          <label for="message" class="col-form-label">Message</label><br/>
-                          <textarea name="message"></textarea>
-                          <p class="fw-lighter">Add any notes here.</p>
-                        </div>
                       </div>
+                      </div>
+                      <p class="fw-lighter" style="margin-left: 700px;">Add any notes here.</p>
                   </form>
                 <div class="col-8">
                     
